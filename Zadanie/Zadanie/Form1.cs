@@ -24,7 +24,10 @@ namespace Zadanie
             Count = Count + 10;
             Count_lbl.Text = Count.ToString();
             if (Count == 20)
+            {
                 MessageBox.Show("Day is over");
+            }    
+                
 
             if (Count >= 20)
             {
@@ -68,7 +71,10 @@ namespace Zadanie
             Count = 0;
             Count_lbl.Text = Count.ToString();
             if (Count == 0)
+            {
                 MessageBox.Show("New day");
+            }
+               
 
             if (Count == 0)
             {
@@ -99,7 +105,11 @@ namespace Zadanie
         {
             Count_lbl.Text = Count.ToString();
             if (Count < 10) Count = Count + 1;
-            else if (Count >= 10) Count = Count + 2;
+            else if
+             
+                
+                (Count >= 10) Count = Count + 2;
+            
 
             if (Count >= 22)
             {
